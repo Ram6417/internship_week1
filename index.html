@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinary Haven</title>
+    <link rel="stylesheet" href="res.css">
+</head>
+<body>
+    <div class="background">
+        <header class="header">
+            <nav class="navbar">
+                <a href="#" class="logo">Culinary Haven</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero" id="home">
+                <h1>Welcome to Culinary Haven</h1>
+                <p>Experience a world of exquisite flavors and fine dining. Whether you're craving a classic dish or something new, we have something to satisfy every palate. Join us for an unforgettable culinary journey.</p>
+                <a href="#menu" class="cta-btn">Explore Menu</a>
+            </div>
+        </header>
+
+        <section id="about" class="about-section">
+            <div class="section-content">
+                <h2>About Us</h2>
+                <p>At Culinary Haven, we bring together the finest ingredients and culinary expertise to create a dining experience like no other.</p>
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <div class="section-content">
+                <h2>Our Menu</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="https://www.thereciperebel.com/wp-content/uploads/2023/04/pasta-primavera-TRR-10-of-19.jpg" alt="Pasta Primavera">
+                        <div class="menu-details">
+                            <h3>Pasta Primavera</h3>
+                            <p>Creamy pasta with a blend of fresh vegetables and herbs.</p>
+                            <span>$12.99</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://cdn.shopify.com/s/files/1/0274/9503/9079/files/20220211142754-margherita-9920_5a73220e-4a1a-4d33-b38f-26e98e3cd986.jpg?v=1723650067" alt="Margherita Pizza">
+                        <div class="menu-details">
+                            <h3>Margherita Pizza</h3>
+                            <p>Classic pizza topped with fresh tomatoes, mozzarella, and basil.</p>
+                            <span>$15.99</span>
+                        </div>
+                    </div>
+                    <!-- Additional menu items can be added here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="section-content">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or would like to make a reservation, please reach out.</p>
+                <form id="contactForm">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <input type="tel" id="phone" placeholder="Your Phone Number">
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="cta-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2024 Culinary Haven. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
